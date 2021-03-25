@@ -28,6 +28,7 @@ footer {
 
 .nav .current {
   font-weight: bold;
+  font-size: 25px;
 }
 
 .nav li {
