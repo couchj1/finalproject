@@ -8,14 +8,22 @@
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
-    
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-31R9MWP9VP"></script>
+        <script>
+         window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-31R9MWP9VP');
+        </script>           
     </head>
 
     <body id="Where?">
         <header>
             <a class="skip-to-content-link" href="#main"> Skip to content </a>
             
-            <img src="photos/logo.jpg" alt="logo" />
+            <img class="logo" src="photos/logo.jpg" alt="logo" />
 
             <h1>Mid Century Furniture</h1>
             
@@ -36,7 +44,7 @@
 
         <section class="content">
             <h2>Where to buy?</h2>
-                <p>Mid Century furniture can be found pretty much everywhere! But, depending on your budget, this can vary immensely.If you are a person who has a specific piece in mind and money is no problem, you are almost gauranteed to find it on sites like <a href="https://www.chairish.com/"> Chairish.com</a> or <a href="https://www.firstdibs.com/"> 1stDibs.com.</a> These sites have anything you could possibly want, but they price around 140% above market value.</p>
+                <p>Mid Century furniture can be found pretty much everywhere! But, depending on your budget, this can vary immensely. If you are a person who has a specific piece in mind and money is no problem, you are almost gauranteed to find it on sites like <a href="https://www.chairish.com/"> Chairish.com</a> or <a href="https://www.firstdibs.com/"> 1stDibs.com.</a> These sites have anything you could possibly want, but they price around 140% above market value.</p>
                
                 <p>Your second, more reasonable, option is scouring the web, resale shops, and unknowing victims who don't realize the value of their pieces. Places like Facebook Marketplace and Craigslist are where most pickers go to find their merchandise. If you are lucky and on time, you might just be able to scoop up a good deal before the pickers get to it. Good luck!</p>
                 
@@ -50,13 +58,28 @@
             <p>@JuliaCouchFurniture is a Detroit based mid century furniture resale shop that offers a variety of mid century pieces at below market value!</p>
 
              <p> Check out <a href="https://www.instagram.com/juliacouchfurniture/"> @JuliaCouchFurniture </a> on instagram & Julia Couch on Facebook Marketplace.</p>
+        
+        
+        <div class="form">
+        <form action="https://formspree.io/f/xwkapjvq" method="POST">
+        <label>
+            Your email:
+            <input type="email" name="_replyto">
+        </label>
+        <label>
+            Your message:
+            <textarea name="message"></textarea>
+        </label>
+        </div>
 
-
+        <button type="submit">Send</button>
+</form>
             <div class="jcfurniture">
             <img src="photos/logofurntiure.png" alt="@JuliaCouchFurniture Logo">
            
             <img src="photos/instagramtag.png" alt= "@JuliaCouchFurniture Instagram Tag">
             </div>
+
         </main>
         </body>
 
@@ -66,7 +89,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="famous.html">Examples</a></li>
                     <li><a href="NotMCM.html">Not-MCM</a></li>
-                    <li><a href="buy.html">Where to buy?</a></li>
+                    <li><a class="current" href="buy.html">Where to buy?</a></li>
                 </ul>
             </div>
         </footer>

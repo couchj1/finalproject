@@ -10,7 +10,15 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet"> 
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-31R9MWP9VP"></script>
+        <script>
+         window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
+        gtag('config', 'G-31R9MWP9VP');
+        </script>           
         
     </head>
 
@@ -18,8 +26,10 @@
     <body>
         
         <header>
+            <div class="header">
+               <div id="background" ></div>
             <a class="skip-to-content-link" href="#main"> Skip to content </a>
-            <img src="photos/logo.jpg" alt="logo" />
+            <img class="logo" src="photos/logo.jpg" alt="logo" />
             <h1 class="title">Mid Century Furniture</h1>
                 <h2 class="intro">A brief introduction into the world of Mid Century Modern furniture.</h2>
                 
@@ -32,7 +42,7 @@
                     </ul>
                 
                 </div>
-    
+            </div>
             <hr>
 
         </header>
@@ -40,9 +50,13 @@
 
         <section class="content">
             <main id="main">
-                <img id="homephoto" src="photos/retro.png" alt="A picture of a home from 1960, showcasing a room dividers." class="center">   
-                
-              <h2>What is Mid Century?</h2>           
+                <div class="flip-card">
+                    <div class="flip-card-inner">  
+                    <img id="homephoto" src="photos/retro.png" alt="A picture of a home from 1960, showcasing a room dividers." class="center">   
+                    </div>   
+                </div>
+       
+               <h2>What is Mid Century?</h2>           
 
                     <p>Mid century modern furniture comes from an American design movement that stems from urban development in the later 1940's. The term mid century modern can be used to categorized anything design after the era, this includes architecture, furniture, art, and much more. Generally, a piece can only be considered genuine mid century modern if it was produced between 1945-1970. Occasionally, early 1970's designs are also included. Although genuine mid century modern furniture is the most saught after, there are many reproductions that mimic the style, and lower the price. In the realm of genuine pieces, items generally sell for $400 or more, with the most prized pieces being able to pull $5000-$6000.</p>
                 
@@ -61,7 +75,9 @@
                 
                 <h2>Background and History</h2>
                 
+                
                 <p>Mid century design began in America as designers became influenced by previous movements, especially Bauhaus from Germany. After the war, there was an expansion of suburbinization, which created a higher demand for furniture. This along side the increased technological advances of the time, led to higher production and consumption of furniture. These factors are what led mid century furniture to become incredibly popular during the original production years. </p>
+     
             </main>
         </section>
     </body>
@@ -70,7 +86,7 @@
             <div id="navigation" role="navigation" aria-label="product navigation"></div>
             
                 <ul class="nav">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a class="current" href="index.html">Home</a></li>
                     <li><a href="famous.html">Examples</a></li>
                     <li><a href="NotMCM.html">Not-MCM</a></li>
                     <li><a href="buy.html">Where to buy?</a></li>
