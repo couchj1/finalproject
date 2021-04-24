@@ -210,7 +210,7 @@ header h1 {
   transform-style: preserve-3d;
 }
 
-.flip-card:focus .flip-card-inner, .flip-card:active .flip-card-inner, .flip-card:hover .flip-card-inner, .flip-card:focus-within .flip-card-inner{
+.flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
@@ -270,7 +270,7 @@ a {
 
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 768px) {
 
   body {
     font-size: 26px;
@@ -348,7 +348,7 @@ header img{
 }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1224px) {
 
   h1 {
     font-size: 80px;
