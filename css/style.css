@@ -224,14 +224,14 @@ h3, .phome{
 }
 
 a {
-  color:		#228B22;
+  color:#228B22;
   font-weight: bolder;
   padding-bottom: 10px;
 
 }
 
 .skip-to-content-link {
-  color:black;
+  color: #000000;
   left: 1000%;
   position: relative;
   -webkit-transition: top 1s ease-out;
